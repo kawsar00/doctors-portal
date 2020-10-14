@@ -1,0 +1,14 @@
+.react-calendar {
+  border: none !important;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075)
+}
+.dashboard-container .react-calendar {
+  width: 88% !important;
+  margin: 25px;
+  height: 90vh;
+}
+.react-calendar__tile--active {
+  background: #1CC7C1 !important;
+  color: white;
+  border-radius: 10px;
+}

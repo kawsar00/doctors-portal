@@ -1,0 +1,14 @@
+.testimonials .container {
+  background: url('../../../images/quote.png');
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 140px;
+}
+.testimonials .card-footer {
+  background-color: transparent; 
+  border-top: 0; 
+}
+
+.testimonials .card {
+  border: none;
+}

@@ -1,0 +1,30 @@
+.blog-container .card-header {
+  border: none;
+  background: transparent;
+}
+
+.blog-container .card {
+  border: none;
+}
+
+.blog-container .card:hover {
+  background: linear-gradient(90deg, rgba(24,210,180,1) 0%, rgba(15,207,233,1) 60%);
+  transition:  .1s  all ease-in-out !important;
+}
+
+.blog-container .card:hover .card-body {
+  background: url('../../../images/quote.png');
+  background-repeat: no-repeat;
+  background-position:top right;
+  background-size: 200px;
+}
+
+.blog-container .card:hover h6,
+.blog-container .card:hover h5,
+.blog-container .card:hover p {
+  color: white !important;
+}
+
+.blog-container .card:hover img {
+  display: none;
+}
