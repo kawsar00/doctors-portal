@@ -36,9 +36,9 @@ function App() {
         <Route path="/dashboard/allPatients">
           <AllPatients></AllPatients>
         </Route>
-        <Route path="/addDoctor">
+        <PrivateRoute path="/addDoctor">
           <AddDoctor></AddDoctor>
-        </Route>
+        </PrivateRoute>
       </Switch>
     </Router>
     </UserContext.Provider>
